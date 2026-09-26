@@ -1,0 +1,22 @@
+{
+  "name": "dsh-proxy-autoswitch",
+  "version": "0.1.0",
+  "description": "代理端口失效时自动把 dsh 切回直连：定期 TCP 探测 http(s)_proxy，死了清空变量并重装 undici 全局 dispatcher，复活后恢复。",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./index.js": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "id": "dsh-proxy-autoswitch",
+    "name": "代理自动切换",
+    "permissions": "读取进程环境变量, 重装 undici 全局 dispatcher"
+  }
+}
