@@ -11,9 +11,15 @@
   },
   "files": [
     "index.js",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jipika/dsh-proxy-autoswitch.git"
+  },
+  "homepage": "https://github.com/jipika/dsh-proxy-autoswitch#readme",
   "dsh": {
     "id": "dsh-proxy-autoswitch",
     "name": "代理自动切换",

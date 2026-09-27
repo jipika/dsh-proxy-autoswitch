@@ -1,5 +1,9 @@
 # dsh-proxy-autoswitch
 
+> **拥有**：undici 全局 dispatcher 的重装（代理端口消失时切回直连，复活后恢复）。
+> **冲突时**：与任何同样重装 dispatcher 的插件互斥（本机无）；只改进程内状态，不落盘配置。
+> **回滚**：删 `dsh-proxy-autoswitch` insert + 重启应用。
+
 代理端口失效时，把 dsh 自动切回直连；代理复活后再自动恢复。
 
 ## 为什么需要它
