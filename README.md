@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/icon.svg" width="72" alt="dsh-proxy-autoswitch icon">
+</div>
+
 # dsh-proxy-autoswitch
 
 > **拥有**：undici 全局 dispatcher 的重装（代理端口消失时切回直连，复活后恢复）。
